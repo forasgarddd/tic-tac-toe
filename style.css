@@ -1,0 +1,38 @@
+.board {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid black;
+    gap: 2px;
+    padding: 2px;
+    background-color: rgb(136, 0, 0);
+}
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+    border: 1px solid grey;
+    background: lightyellow;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restart-button {
+  margin-top: 20px;
+  padding: 10px;
+  outline: none;
+  border: 2px solid black;
+  background-color: azure;
+  border-radius: 5px;
+  
+}
