@@ -215,6 +215,7 @@ function DisplayController() {
         gameBoardDiv.addEventListener("click", cellClick);
         restartButton.remove();
         isGameOver = false;
+        outcome = '';
         
         updateScreen();
     }
