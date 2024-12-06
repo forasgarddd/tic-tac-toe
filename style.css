@@ -1,7 +1,7 @@
 .board {
     display: grid;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     border: 1px solid black;
@@ -35,4 +35,34 @@
   background-color: azure;
   border-radius: 5px;
   
+}
+
+.name-inputs input {
+  margin: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.name1, .name2 {
+  display: flex;
+  align-items: center;
+}
+
+.check-btn-n1, .check-btn-n2 {
+  background-color: rgb(100, 173, 246);
+  border: 2px solid black;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.check-btn-n1:hover {
+  background-color: RoyalBlue;
+}
+
+.check-btn-n2:hover {
+  background-color: RoyalBlue;
 }

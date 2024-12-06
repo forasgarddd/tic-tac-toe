@@ -6,10 +6,25 @@
     <title>Tic Tac Toe</title>
     <script src="tic-tac-toe.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container">
         <h1>Tic Tac Toe</h1>
+        <div class="name-inputs">
+            <div class="name1">
+                <label for="name1">Enter Player 1 name:</label>
+                <input type="text" id="name1">
+                <button class="check-btn-n1"><i class="fa fa-check"></i></button>
+            </div>
+
+            <div class="name2">
+                <label for="name2">Enter Player 2 name:</label>
+                <input type="text" id="name2">
+                <button class="check-btn-n2"><i class="fa fa-check"></i></button>
+            </div>
+        </div>
+
         <h3 class="turn"></h3>
         <div class="board"></div>
     </div>
